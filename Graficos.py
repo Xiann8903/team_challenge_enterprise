@@ -102,7 +102,7 @@ def convertir_tablero_a_texto(tablero, es_maquina=False):
         tablero_texto.append(" | ".join(fila_texto))
     return "\n".join(tablero_texto)
 
-# Función principal del juego
+# Función principal del juego.
 def juego_facil():
     ventana_juego = tk.Tk()
     ventana_juego.title("Hundir la flota - Fácil")
